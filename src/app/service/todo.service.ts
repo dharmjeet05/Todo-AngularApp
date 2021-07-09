@@ -12,7 +12,7 @@ export class TodoService {
     this.todos = [
       {
         id: '111',
-        title: 'Learn C++',
+        title: 'Learn ASP.NET',
         isCompleted: true,
         date: new Date(),
       },

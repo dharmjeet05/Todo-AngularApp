@@ -2,3 +2,7 @@
   color: darkgray;
   text-decoration: line-through;
 }
+
+.myPointer {
+  cursor: pointer;
+}
