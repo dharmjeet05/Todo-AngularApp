@@ -11,6 +11,10 @@
       todo.title | uppercase
     }}</span>
     <span>{{ todo.date | date }}</span>
-    <span><p (click)="deleteTodo(todo)">Trash</p></span>
+    <span
+      ><fa-icon [icon]="faTrashAlt" (click)="deleteTodo(todo)"
+        >Trash</fa-icon
+      ></span
+    >
   </li>
 </ul>
